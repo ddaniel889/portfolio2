@@ -1,0 +1,49 @@
+<header class="header animate__fadeInUp" id="headerMedia">
+    <div class="header2" id="header2Media">
+        <div *ngIf="activar">
+            <ul [class]="claseLinks" id="linksMobile">
+                <button (click)="cerrar()" type="button"> <i class="fas fa-times"></i></button>
+                <li><a routerLink="/home" fragmente="headerMedia" class="animate__fadeInUp">HOME</a></li>
+                <li><a routerLink="/about" fragmente="headerMedia" class="animate__fadeInUp">ABOUT</a></li>
+                <li><a routerLink="/work" fragmente="headerMedia" class="animate__fadeInUp">WORK</a></li>
+                <li><a routerLink="/contact" fragmente="headerMedia" class="animate__fadeInUp">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="container" id="containerMedia">
+            <nav class="navegador" id="navegadorMedia">
+                <div class="logoo">
+                    <img src="../../../assets/logoAndresBonilla.png" alt="logo">
+                </div>
+                <button (click)="abrir()"><i class="fas fa-bars"></i></button>
+                <ul class="links" id="linksMedia">
+                    <li><a routerLink="/home" routerLinkActive="active">HOME</a></li>
+                    <li><a routerLink="/about" routerLinkActive="active">ABOUT</a></li>
+                    <li><a routerLink="/work" routerLinkActive="active">WORK</a></li>
+                    <li><a routerLink="/contact" routerLinkActive="active">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="titlePrincipal animate__fadeInUp" id="titlePrincipalMedia">
+                <h1>About me</h1>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="fondoAzulAbout" id="fondoAzulAboutMedia">
+    <div class="container">
+        <div class="aboutSeccionMe">
+            <div class="MyEscrito">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis laboriosam voluptatibus amet velit? Velit, natus deleniti voluptatem beatae, voluptate repudiandae, nobis neque expedita nemo voluptatum ad provident rem laudantium officiis?
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum tempora veniam, repellendus possimus alias dolore. Sapiente quis facere eius. In doloribus dolor dignissimos, harum suscipit molestiae molestias obcaecati officia
+                    mollitia. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id sequi cumque nisi quos, saepe voluptas mollitia laudantium itaque quaerat totam maxime facere doloremque, dolorem eos tenetur ex? Deleniti, aut asperiores.
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <div><img src="../../../assets/fotoBerlin.png" alt="fotos"></div>
+</main>
+
+<footer class="footer" id="footerMedia">
+    <p>© Andres Bonilla</p>
+</footer>

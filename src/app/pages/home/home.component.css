@@ -1,0 +1,505 @@
+@media (max-width:440px) {
+    #containerMedia {
+        width: 92%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    #headerMedia {
+        background-image: url(../../../assets/part1Mobile.PNG);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+    }
+    #header2Media {
+        background-image: url(../../../assets/fondoPaginaPrincipalCelular.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    #linksMedia {
+        display: none;
+    }
+    #linksMobile {
+        display: block;
+        position: fixed;
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+        background-color: #3385FF;
+        text-align: center;
+        padding: 8rem 2rem 2rem 2rem;
+    }
+    #linksMobile li {
+        margin-top: 3rem;
+        list-style: none;
+    }
+    #linksMobile li a {
+        font-size: 1.5rem;
+        color: white;
+        text-decoration: none;
+    }
+    #linksMobile i {
+        font-size: 1.5rem;
+        color: white;
+    }
+    #linksMobile button {
+        font-size: 1.5rem;
+        color: white;
+        background: none;
+        border: none;
+    }
+    #navegadorMedia {
+        display: flex;
+        justify-content: space-between;
+    }
+    #navegadorMedia i {
+        display: block;
+        color: #3385FF;
+        font-size: 2.5rem;
+    }
+    #titlePrincipalMedia {
+        margin-top: 0;
+    }
+    #titlePrincipalMedia h1 {
+        font-size: 2rem;
+    }
+    #aboutMedia {
+        align-items: center;
+    }
+    #aboutdivMedia {
+        display: flex;
+        flex-direction: column;
+    }
+    #aboutTitleMedia {
+        margin-top: 2rem;
+    }
+    #imgLAMedia img {
+        width: 100%;
+        max-width: 25rem;
+        margin: 0;
+    }
+    #skillsPrincipalMedia {
+        background-image: url(../../../assets/part2Mobile.PNG);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    #skillsMedia {
+        padding: 2rem 0;
+        background-image: url(../../../assets/fondoPaginaSkillsCelular.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    #divSkillsMedia {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 3rem 0;
+    }
+    #cuadrosWorksMedia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #cuadroEcomerceMedia {
+        text-align: center;
+        padding: 1rem;
+        color: #3385FF;
+        background-color: #2A46FF;
+        width: 20rem;
+        height: 10rem;
+        border-radius: 15px;
+        margin: 0 1rem 1rem 1rem;
+    }
+    #contactFondoMedia {
+        background-image: url(../../../assets/fondoSeccion3.PNG);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+    #contactMapaMedia {
+        background-image: url(../../../assets/seccion3Celular.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+    #contactTextoMedia {
+        margin: 20rem 0 0 0;
+    }
+    #contactTextoMedia h4 {
+        font-size: 1.2rem;
+    }
+    #contactTextoMedia p {
+        margin-bottom: 2rem;
+    }
+    #contactTextoMedia i {
+        font-size: 3rem;
+        margin: 0;
+    }
+    #contactTextoMedia a {
+        margin: 3rem 2rem 0 0;
+    }
+    #contactTextoMedia a:last-of-type {
+        margin: 3rem 0 0 0;
+    }
+    #navegadorMedia button {
+        display: block;
+        border: none;
+        background-color: transparent;
+        overflow: scroll;
+    }
+}
+
+
+/*  -----------------------------------------------------------MoBILE---------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------MoBILE---------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------MoBILE---------------------------------------------------------------- */
+
+.header2 {
+    background-image: url(../../../assets/fondoPaginaPrincipal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+ 
+}
+
+.linksMobile {
+    display: none;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header {
+    background-image: url(../../../assets/part1.PNG);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+   
+}
+
+.logoo img {
+    width: 100%;
+    min-width: 3rem;
+    max-width: 4rem;
+}
+
+.links {
+    display: flex;
+    margin-left: 5rem;
+}
+
+.links i {
+    display: none;
+}
+
+.links li {
+    list-style: none;
+    margin-left: 1.8rem;
+    color: #3385FF;
+}
+
+.links li a {
+    text-decoration: none;
+    color: #3385FF;
+}
+
+.links li a.active {
+    text-decoration: line-through;
+    color: #3385FF;
+}
+
+.links li a:hover {
+    text-decoration: line-through;
+    color: #3385FF;
+}
+
+.links li:last-of-type {
+    list-style: none;
+    color: #3385FF;
+}
+
+.titlePrincipal {
+    margin-top: 15rem;
+}
+
+.titlePrincipal h1 {
+    font-size: 3.2rem;
+    color: #3385FF;
+}
+
+.titlePrincipal h3 {
+    font-size: 1.6rem;
+}
+
+.navegador {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6rem 0;
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important; 
+    width: 95% !important;
+    margin-right: 30px;
+}
+
+.navegador button {
+    display: none;
+}
+
+.about {
+    color: white;
+    display: flex;
+    background-color: #3385FF;
+    padding: 2rem 0;
+}
+
+.aboutdiv {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 60% 40%;
+}
+
+.aboutTitle {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+.imgLA img {
+    width: 100%;
+    max-width: 24rem;
+    margin-left: 2rem;
+}
+
+.descripcionAbout p {
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Grenze Gotisch', cursive;
+}
+
+.skills {
+    padding: 2rem 0;
+    background-image: url(../../../assets/fondoPaginaSkills.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
+}
+
+.skillsPrincipal {
+    background-image: url(../../../assets/seccion2.PNG);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.divSkills {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 4rem;
+    margin-left: 44rem;
+}
+
+.divSkills h3 {
+    font-size: 2rem;
+    color: #3385FF;
+}
+
+.iconosSkills {
+    margin-top: 1rem;
+}
+
+.iconosSkills i {
+    margin-right: 1rem;
+    font-size: 2.6rem;
+}
+
+.iconosSkills i:last-of-type {
+    margin-right: 0;
+}
+
+.angularIcon {
+    color: #dd1b16;
+    cursor: pointer;
+}
+
+.htmlIcon {
+    color: #e34c26;
+    cursor: pointer;
+}
+
+.cssIcon {
+    color: #2965f1;
+    cursor: pointer;
+}
+
+.bootstrapIcon {
+    color: #431959;
+    cursor: pointer;
+}
+
+.nodeIcon {
+    color: #68a063;
+    cursor: pointer;
+}
+
+.jsIcon {
+    color: #f0db4f;
+    cursor: pointer;
+}
+
+.myworks {
+    color: white;
+    background-color: #3385FF;
+    padding: 2rem 0;
+}
+
+.mworksInfo {
+    text-align: center;
+}
+
+.mworksInfo h3 {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.SeeMore a {
+    color: white;
+    text-decoration: none;
+}
+
+.cuadrosWorks {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+    margin-bottom: 2.4rem;
+}
+
+.cuadroEcomerce {
+    text-align: center;
+    padding: 1rem;
+    color: #3385FF;
+    background-color: #2A46FF;
+    width: 18rem;
+    height: 25rem;
+    border-radius: 15px;
+}
+
+.cuadroEcomerce h4 {
+    color: white;
+}
+
+.cuadroBlog h4 {
+    color: white;
+}
+
+.cuadroAppMovil h4 {
+    color: white;
+}
+
+.cuadroEcomerce:hover {
+    box-shadow: 0px -1px 25px -6px rgba(0, 0, 0, 0.75);
+}
+
+.contactFondo {
+    background-image: url(../../../assets/fondoSeccion3.PNG);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.contactMapa {
+    padding: 2rem 0;
+    background-image: url(../../../assets/seccion3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.contactTexto {
+    margin-right: 42rem;
+    text-align: center;
+}
+
+.contactTexto i {
+    font-size: 3rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+.contactTexto h3 {
+    font-size: 2rem;
+    color: #3385FF;
+}
+
+.contactTexto h4 {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+
+.contactTexto p {
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+.instaIcon {
+    color: #3385FF;
+}
+
+.facebookIcon {
+    color: #3385FF;
+}
+
+.gitHubIcon {
+    color: #3385FF;
+}
+
+.linkedIcon {
+    color: #3385FF;
+}
+
+.footer {
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    background-color: #3385FF;
+}
+
+.animate__fadeInUp {
+    animation-duration: 1.8s;
+}
+
+.animate__fadeInDown {
+    animation-duration: 1.8s;
+}
+
+.animate__fadeOutUp {
+    animation-duration: 1.8s;
+}

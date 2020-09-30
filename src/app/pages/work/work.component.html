@@ -1,0 +1,80 @@
+<header class="header animate__fadeInUp" id="headerMedia">
+    <div class="header2" id="header2Media">
+        <div *ngIf="activar">
+            <ul [class]="claseLinks" id="linksMobile">
+                <button (click)="cerrar()"> <i class="fas fa-times"></i></button>
+                <li><a routerLink="/home" fragmente="headerMedia">HOME</a></li>
+                <li><a routerLink="/about" fragmente="headerMedia">ABOUT</a></li>
+                <li><a routerLink="/work" fragmente="headerMedia">WORK</a></li>
+                <li><a routerLink="/contact" fragmente="headerMedia">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="container" id="containerMedia">
+            <nav class="navegador" id="navegadorMedia">
+                <div class="logoo">
+                    <img src="../../../assets/logoAndresBonilla.png" alt="logo">
+                </div>
+                <button (click)="abrir()"><i class="fas fa-bars"></i></button>
+                <ul class="links" id="linksMedia">
+                    <li><a routerLink="/home" routerLinkActive="active">HOME</a></li>
+                    <li><a routerLink="/about" routerLinkActive="active">ABOUT</a></li>
+                    <li><a routerLink="/work" routerLinkActive="active">WORK</a></li>
+                    <li><a routerLink="/contact" routerLinkActive="active">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="titlePrincipal animate__fadeInUp" id="titlePrincipalMedia">
+                <h1>My Works</h1>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="FondoAzulWorks">
+    <div class="container filasWorks" id="filasWorksMedia">
+        <div class="filaWork" id="filaWorkMedia">
+            <div class="cuadroWork" id="cuadroWorkMedia">
+                <img src="" alt="imagenWork">
+                <h4>Title</h4>
+                <p>Descripcion</p>
+                <a href="">Ver proyecto</a>
+            </div>
+            <div class="cuadroWork" id="cuadroWorkMedia">
+                <img src="" alt="imagenWork">
+                <h4>Title</h4>
+                <p>Descripcion</p>
+                <a href="">Ver proyecto</a>
+            </div>
+            <div class="cuadroWork" id="cuadroWorkMedia">
+                <img src="" alt="imagenWork">
+                <h4>Title</h4>
+                <p>Descripcion</p>
+                <a href="">Ver proyecto</a>
+            </div>
+        </div>
+        <div class="filaWork" id="filaWorkMedia">
+            <div class="cuadroWork" id="cuadroWorkMedia">
+                <img src="" alt="imagenWork">
+                <h4>Title</h4>
+                <p>Descripcion</p>
+                <a href="">Ver proyecto</a>
+            </div>
+            <div class="cuadroWork" id="cuadroWorkMedia">
+                <img src="" alt="imagenWork">
+                <h4>Title</h4>
+                <p>Descripcion</p>
+                <a href="">Ver proyecto</a>
+            </div>
+            <div class="cuadroWork" id="cuadroWorkMedia">
+                <img src="" alt="imagenWork">
+                <h4>Title</h4>
+                <p>Descripcion</p>
+                <a href="">Ver proyecto</a>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="footer" id="footerMedia">
+    <p>© Andres Bonilla</p>
+</footer>

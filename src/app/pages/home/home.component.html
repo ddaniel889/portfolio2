@@ -1,0 +1,116 @@
+<header class="header animate__fadeInUp" id="headerMedia">
+    <div class="header2" id="header2Media">
+        <div *ngIf="activar">
+            <ul [class]="claseLinks" id="linksMobile">
+                <button (click)="cerrar()"><i class="fas fa-times"></i></button>
+                <li><a routerLink="/home" fragmente="headerMedia">HOME</a></li>
+                <li><a routerLink="/about" fragmente="headerMedia">ABOUT</a></li>
+                <li><a routerLink="/work" fragmente="headerMedia">WORK</a></li>
+                <li><a routerLink="/contact" fragmente="headerMedia">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="container" id="containerMedia">
+
+            <nav class="navegador" id="navegadorMedia">
+                <div class="logoo">
+                    <img src="../../../assets/logoAndresBonilla.png" alt="logo">
+                </div>
+                <button (click)="abrir()"><i class="fas fa-bars"></i></button>
+                <ul class="links" id="linksMedia">
+                    <li><a routerLink="/home" routerLinkActive="active">HOME</a></li>
+                    <li><a routerLink="/about" routerLinkActive="active">ABOUT</a></li>
+                    <li><a routerLink="/work" routerLinkActive="active">WORK</a></li>
+                    <li><a routerLink="/contact" routerLinkActive="active">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <div class="titlePrincipal animate__fadeInUp" id="titlePrincipalMedia">
+                <h1>Full Stack Developer</h1>
+                <h3><small>by</small> Andres Bonilla</h3>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="about" id="aboutMedia">
+    <div class="container" id="containerMedia">
+        <h3 class="aboutTitle" id="aboutTitleMedia">ABOUT ME</h3>
+        <div class="aboutdiv " id="aboutdivMedia">
+            <div class="descripcionAbout" id="descripcionAboutMedia">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas exercitationem magni quibusdam laborum voluptatibus impedit ut illo beatae corporis nisi perspiciatis, velit, odio aperiam nam alias atque. Omnis, officia corporis.</p>
+            </div>
+            <div class="imgLA" id="imgLAMedia">
+                <img src="../../../assets/fotoLorenzoYyo.png" alt="Andres y lorenzo">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="skillsPrincipal" id="skillsPrincipalMedia">
+
+    <div class="skills" id="skillsMedia">
+        <div class="container" id="containerMedia">
+            <div class="divSkills" id="divSkillsMedia">
+                <h3>SKILLS</h3>
+                <p>I have experience in:</p>
+                <div class="iconosSkills" id="iconosSkillsMedia">
+                    <i class="fab fa-html5 htmlIcon"></i>
+                    <i class="fab fa-css3-alt cssIcon"></i>
+                    <i class="fab fa-bootstrap bootstrapIcon"></i>
+                    <i class="fab fa-js-square jsIcon"></i>
+                    <i class="fab fa-angular angularIcon"></i>
+                    <i class="fab fa-node-js nodeIcon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<main class="myworks" id="myworksMedia">
+    <div class="container" id="containerMedia">
+        <div class="mworksInfo" id="mworksInfoMedia">
+            <div>
+                <h3>MY WORKS</h3>
+            </div>
+            <div class="cuadrosWorks" id="cuadrosWorksMedia">
+                <div class="cuadroEcomerce" id="cuadroEcomerceMedia">
+                    <h4>Ecomerce</h4>
+                </div>
+                <div class="cuadroEcomerce" id="cuadroEcomerceMedia">
+                    <h4>Blog</h4>
+                </div>
+                <div class="cuadroEcomerce" id="cuadroEcomerceMedia">
+                    <h4>Android & ios app</h4>
+                </div>
+            </div>
+            <div class="SeeMore" id="SeeMoreMedia">
+                <a href="#">see more ></a>
+            </div>
+        </div>
+    </div>
+</main>
+
+<section class="contactFondo" id="contactFondoMedia">
+    <div class="contactMapa" id="contactMapaMedia">
+        <div class="container" id="containerMedia">
+
+            <div class="contactTexto" id="contactTextoMedia">
+                <h3>CONTACT ME</h3>
+                <h4>andresbonilla1256@gmail.com</h4>
+                <p>if you want to digitize your idea or your business or talk about anything don't think about it anymore and write me to my email or you can also write me through my social networks
+                </p>
+                <a href="https://www.instagram.com/abonilla_1020/?hl=es-la" target="_blank"><i class="fab fa-instagram-square instaIcon"></i></a>
+                <a href=""><i class="fab fa-facebook-square facebookIcon"></i></a>
+                <a href="https://github.com/aBonilla1020" target="_blank"> <i class="fab fa-github-square gitHubIcon"></i></a>
+                <a href="https://www.linkedin.com/in/andres-bonilla-685983189/" target="_blank"><i class="fab fa-linkedin-square linkedIcon"></i></a>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+<footer class="footer" id="footerMedia">
+    <p>© Andres Bonilla</p>
+</footer>
